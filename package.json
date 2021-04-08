@@ -14,5 +14,11 @@
     "@wdio/sync": "^7.3.0",
     "chromedriver": "^89.0.0",
     "wdio-chromedriver-service": "^7.0.0"
+  },
+  "scripts": {
+    "check": "npx wdio wdio.conf.js --spec ./test/specs/test-run.e2e.js"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }

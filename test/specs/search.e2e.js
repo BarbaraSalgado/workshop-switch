@@ -17,17 +17,11 @@ describe('Search', () => {
 
         HomePage.searchBtn.click();
 
-        browser.pause(5000); // replace with browser.waitUntil below
+        browser.pause(5000);
 
-        // browser.waitUntil(
-        //     () => SearchPage.numberOfResults.isDisplayed(),
-        //     {
-        //         timeout: 10000,
-        //         timeoutMsg: 'Timed out. Expected results to be displayed.'
-        //     }
-        // );
+        // Please note that the validations below will fail at first, this is part of our workshop :)
 
-        expect(SearchPage.numberOfResults.getText()).toBe("0 results have been found.");
+        expect(SearchPage.numberOfResultsLabel.getText()).toBe("0 results have been found.");
         expect(SearchPage.noResultsLabel.getText()).toBe("No results were found for your search \"bananas\"");
     });
 });
