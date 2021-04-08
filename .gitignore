@@ -1,0 +1,25 @@
+# IntelliJ and WebStorm project files
+.idea
+*.iml
+
+# VSCode project config
+.vscode
+.eslintrc.json
+.prettierrc
+.editorconfig
+
+# Build: Dependencies and output files
+coverage/
+node_modules/
+reports*/
+target/
+temp/
+yarn.lock
+.sass-cache
+.eslintcache
+.stylelintcache
+
+# Other: Miscellaneous files
+.DS_Store
+*.local.js
+*.log
