@@ -13,7 +13,7 @@
 ## setup
 
 ### Cloning this project
-[image](https://user-images.githubusercontent.com/6171321/114008878-8f161600-985a-11eb-9ce1-345df0050d03.png)
+![image](https://user-images.githubusercontent.com/6171321/114008878-8f161600-985a-11eb-9ce1-345df0050d03.png)
 
 Click on 'Code' and on the dropdown select HTTPS.
 
@@ -37,6 +37,9 @@ After your installation is ready, run the `check` task to validate your setup.
 ```npm run check```
 
 This should show 'SETUP OK!' on your console - and you're all set!
+
+![image](https://user-images.githubusercontent.com/6171321/114173631-5eec7700-992f-11eb-9969-2e3a43c58deb.png)
+
 
 
 We won't have time on the workshop to debug setups, so please make sure your setup works :)
