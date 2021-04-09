@@ -1,5 +1,12 @@
 # BLIP-SWITCH webdriver.io workshop
 
+Let's create some automated functional tests using webdriver.io. Why webdriver.io?
+- actually uses Selenium under the hood, so the api will be very similar
+- it's a JS framework
+- it's user-friendly, easy to install, well documented and has a huge community
+- also commonly used to test react.js apps
+
+
 ## pre-requisites
 
 * install git
