@@ -3,10 +3,12 @@
 ## pre-requisites
 
 * install git
-* install node.js - this project runs using node.js. You can find node here download node.js https://nodejs.org/en/ - Please make sure you're using node version 12.
+* install node.js - this project runs using node.js. You can find node [here](https://nodejs.org/en/) - please make sure you're using node version 12.
 * we recommend using a node version manager, such as nvm
 * a terminal
 * an IDE
+
+
 
 ## setup
 
@@ -28,12 +30,13 @@ Once the project is cloned, access the project from your terminal, and in the ro
 
 ```npm install```
 
+
 ### Test your installation
 After your installation is ready, run the `check` task to validate your setup.
 
 ```npm run check```
 
-This should return 'OK!' and you're all set!
+This should show 'SETUP OK!' on your console - and you're all set!
 
 
 We won't have time on the workshop to debug setups, so please make sure your setup works :)
