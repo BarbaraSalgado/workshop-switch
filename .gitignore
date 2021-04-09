@@ -9,12 +9,9 @@
 .editorconfig
 
 # Build: Dependencies and output files
-coverage/
 node_modules/
 reports*/
-target/
 temp/
-yarn.lock
 .sass-cache
 .eslintcache
 .stylelintcache
