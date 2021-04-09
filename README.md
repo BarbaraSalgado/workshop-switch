@@ -4,7 +4,7 @@
 
 * install git
 * install node.js - this project runs using node.js. You can find node here download node.js https://nodejs.org/en/ - Please make sure you're using node version 12.
-* we recommend using a node version manager, such as nvm.
+* we recommend using a node version manager, such as nvm
 * a terminal
 * an IDE
 
@@ -15,7 +15,7 @@
 
 Click on 'Code' and on the dropdown select HTTPS.
 Go to your terminal and enter 
-```git clone```
+```git clone https://github.com/BarbaraSalgado/workshop-switch.git```
 
 
 ### Using node.js
