@@ -1,40 +1,39 @@
-# webdriver-io tests workshop
+# BLIP-SWITCH webdriver.io workshop
 
-## pre requisites
+## pre-requisites
 
-git
-node 
-
-Our project runs using node.js. You can find node here download node.js https://nodejs.org/en/
-Please make sure you're using node version 12
-
-nvm
-If you're using nvm, simply use 
-nvm install 12
-nvm use 12
-
-terminal
-IDE
-
+* install git
+* install node.js - this project runs using node.js. You can find node here download node.js https://nodejs.org/en/ - Please make sure you're using node version 12.
+* we recommend using a node version manager, such as nvm
+* a terminal
+* an IDE
 
 ## setup
 
 ### Cloning this project
-Screenshot 2021-04-08 at 11.05.18![image](https://user-images.githubusercontent.com/6171321/114008878-8f161600-985a-11eb-9ce1-345df0050d03.png)
+[image](https://user-images.githubusercontent.com/6171321/114008878-8f161600-985a-11eb-9ce1-345df0050d03.png)
 
-Click on 'CODE' and on the dropdown select HTTPS.
-Go to your terminal and enter git clone xxxxxxx (link)
+Click on 'Code' and on the dropdown select HTTPS.
+
+Go to your terminal and enter:
+
+```git clone https://github.com/BarbaraSalgado/workshop-switch.git```
 
 
 ### Using node.js
-Our project runs using node.js. You can find node here download node.js https://nodejs.org/en/
+
 Please make sure you're using node version 12.
+
+Once the project is cloned, access the project from your terminal, and in the root of the project just type:
 
 ```npm install```
 
 ### Test your installation
+After your installation is ready, run the `check` task to validate your setup.
 
 ```npm run check```
 
 This should return 'OK!' and you're all set!
 
+
+We won't have time on the workshop to debug setups, so please make sure your setup works :)
