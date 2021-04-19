@@ -22,9 +22,9 @@ class LoginPage {
      * @param password The password to insert
      */
     login (username, password) {
-        await (await this.inputEmail).setValue(username);
-        await (await this.inputPassword).setValue(password);
-        await (await this.btnSubmit).click();
+        this.inputEmail.setValue(username);
+        this.inputPassword.setValue(password);
+        this.btnSubmit.click();
     }
 }
 
