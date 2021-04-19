@@ -12,7 +12,8 @@ Let's create some automated functional tests using WebdriverIO. Why WebdriverIO?
 * Install Git;
 * Install Node.js - this project runs using [Node.js](https://nodejs.org/en/). Please make sure you're using at least node version 12;
 * We recommend using a node version manager, such as [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md);
-* A terminal and an IDE.
+* A terminal and an IDE;
+* Have Chrome installed with it's latest version (we're using chromedriver for this workshop).
 
 
 
