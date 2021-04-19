@@ -21,7 +21,7 @@ class LoginPage {
      * @param username The username to insert
      * @param password The password to insert
      */
-    async login (username, password) {
+    login (username, password) {
         await (await this.inputEmail).setValue(username);
         await (await this.inputPassword).setValue(password);
         await (await this.btnSubmit).click();
