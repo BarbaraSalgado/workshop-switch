@@ -13,7 +13,7 @@ Let's create some automated functional tests using WebdriverIO. Why WebdriverIO?
 * Install Node.js - this project runs using [Node.js](https://nodejs.org/en/). Please make sure you're using at least node version 12;
 * We recommend using a node version manager, such as [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md);
 * A terminal and an IDE;
-* Have Chrome installed with it's latest version (we're using chromedriver for this workshop).
+* Have Chrome installed with its latest version (we're using chromedriver for this workshop).
 
 
 
@@ -70,8 +70,15 @@ To run a specfic test suite, you'll need to run this command on your terminal:
 ```npx wdio wdio.conf.js --spec ./test/specs/test-run.e2e.js```
 
 ## Important documentation
-### webdriver.io 
-API: https://webdriver.io/docs/api - you'll need to look up this during the workshop
+Some interesting reads and information you might need to look up this during the workshop:
+### Webdriver IO API
+https://webdriver.io/docs/api 
 
-### jasmine
+### Jasmine
 https://jasmine.github.io/tutorials/your_first_suite
+
+### Inspect elements with Chrome
+https://developer.chrome.com/docs/devtools/dom/
+
+### Selector cheat sheet
+https://cheatography.com/janesh/cheat-sheets/css-selectors-for-selenium-webdriver/
