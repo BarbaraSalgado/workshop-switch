@@ -68,3 +68,10 @@ Don't worry if not all tests are passing, this is part of our workshop. All vali
 To run a specfic test suite, you'll need to run this command on your terminal:
 
 ```npx wdio wdio.conf.js --spec ./test/specs/test-run.e2e.js```
+
+## Important documentation
+### webdriver.io 
+API: https://webdriver.io/docs/api - you'll need to look up this during the workshop
+
+### jasmine
+https://jasmine.github.io/tutorials/your_first_suite
