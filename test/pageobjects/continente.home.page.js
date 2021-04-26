@@ -1,5 +1,4 @@
 class ContinenteHomePage {
-
     // Search
 
     /**
@@ -12,8 +11,7 @@ class ContinenteHomePage {
      */
     get searchBtn () { return $('#searchButton') }
 
-
-    // Log In
+    // Login
 
     /**
      * Gets the username field on the login area
@@ -37,10 +35,11 @@ class ContinenteHomePage {
 
 
     /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
+     * Logs a user in with the given credentials
+     * 
+     * @param username The username to insert
+     * @param password The password to insert
      */
-
     login (username, password) {
         this.loginUsername.setValue(username);
         this.loginPassword.setValue(password);

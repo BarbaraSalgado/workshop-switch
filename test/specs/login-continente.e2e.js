@@ -2,8 +2,6 @@ const ContinenteHomePage = require('../pageobjects/continente.home.page');
 
 describe('when trying to login in with invalid credentials', () => {
     it('the login should fail', () => {
-
-
         // url to our website (continente)
         const continenteUrl = 'https://www.continente.pt/';
 
@@ -16,10 +14,8 @@ describe('when trying to login in with invalid credentials', () => {
             "De momento não é possivel efetuar a operação pretendida.\n" +
             "Por favor tente mais tarde."
 
-
         // accessing continente's site
         browser.url(continenteUrl);
-
 
         // logging in with fake credentials
         ContinenteHomePage.login(username, password);
@@ -30,10 +26,9 @@ describe('when trying to login in with invalid credentials', () => {
             () => ContinenteHomePage.loginErrorMessage.isDisplayed() === true,
             {
                 timeout: 10000,
-                timeoutMsg: 'Timed out. Expected error text message to be displayed.'
+                timeoutMsg: 'Timed out. Expected login error message to be displayed.'
             }
         );
-
 
         // finishing with our assertion
         expect(ContinenteHomePage.loginErrorMessage.getText()).toBe(expectedErrorMessage);
