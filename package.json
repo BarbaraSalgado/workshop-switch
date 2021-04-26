@@ -16,7 +16,9 @@
     "wdio-chromedriver-service": "^7.0.0"
   },
   "scripts": {
-    "check": "npx wdio wdio.conf.js --spec ./test/specs/test-run.e2e.js"
+    "check": "npx wdio wdio.conf.js --spec ./test/specs/test-run.e2e.js",
+    "login": "npx wdio wdio.conf.js --spec ./test/specs/login-continente.e2e.js",
+    "search": "npx wdio wdio.conf.js --spec ./test/specs/search-continente.e2e.js"
   },
   "engines": {
     "node": ">=12"
