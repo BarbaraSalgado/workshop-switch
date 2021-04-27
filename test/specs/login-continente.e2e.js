@@ -11,8 +11,7 @@ describe('when trying to login in with invalid credentials', () => {
 
         // continente failed login expected error message
         const expectedErrorMessage = "Estimado(a) Cliente\n" +
-            "De momento não é possivel efetuar a operação pretendida.\n" +
-            "Por favor tente mais tarde."
+            "Formato de email inválido."
 
         // accessing continente's site
         browser.url(continenteUrl);
